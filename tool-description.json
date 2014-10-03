@@ -1,0 +1,15 @@
+{
+    "name": "excel_SX",
+    "description": "Generation of excel spreadsheets with charts using SmartXLS Java library, requires Java and jpype",
+    "url": "github:///minersoft/excel_SX",
+    "version": "1.0.0",
+    "build": 1,
+    "last_modified": "2014-09-26 23:30:00",
+    "dependencies": [],
+    "external_modules": [ {"name": "JPype", "import_name": "jpype", "url": "http://sourceforge.net/projects/jpype/files/JPype/0.5.4/ or http://www.lfd.uci.edu/~gohlke/pythonlibs/#jpype"} ],
+    "external_resources": [
+        {"name": "Java JRE", "path_to": "JAVA_HOME (e.g. 'C:\\Program Files (x86)\\Java\\jre7' or '/usr/lib/jvm/jre')", "parameter_name": "JAVA_HOME" },
+        {"name": "SmartXLS", "path_to": "SX.jar", "parameter_name": "SX_JAR", "url": "http://www.smartxls.com/indexj.htm" }
+    ],
+    "changelog": []
+}
